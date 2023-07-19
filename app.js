@@ -10,4 +10,8 @@ app.get('/',(req,res)=>{
     res.send("this is Home 4001")
 })
 
+app.get('/product',(req,res)=>{
+    res.send("this is Product 4001")
+})
+
 module.exports = app
